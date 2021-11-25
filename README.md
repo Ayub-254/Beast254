@@ -1,10 +1,22 @@
-- 👋 Hi, I’m @Beast254
-- 👀 I’m interested in learning how to code using the various programming languages
-- 🌱 I’m currently learning applied computer technology at USIU
-- 💞️ I’m looking to collaborate on 
-- 📫 How to reach me ...
+-<html>
+    <head>
+        <script type = "text/javaScript">
+            var constant = 100;
+            var kenyan_shillings;
+            var input = prompt("Enter the amount: ");
+            var unit = prompt("enter either dollar or kenyan shillings: ");
+        
+            if(unit == "dollar ")
+            {
+               kenyan_shillings =input * constant;
+               document.write(input + " dollars is " + kenyan_shillings + " kenyan shillings");
+            }
+            else
+            {
+               dollar = input / constant;
+               document.write( input + " kenyan shillings is " + dollar + " dollar");
+            }
+        </script>               
 
-<!---
-Beast254/Beast254 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    </head>
+</html>
